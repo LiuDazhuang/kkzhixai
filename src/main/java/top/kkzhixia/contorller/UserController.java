@@ -10,6 +10,6 @@ public class UserController {
 	@RequestMapping("/getuser")
 	String getUser(){
 		
-		return "[{name:张三},{avg:18},{sex:男}]";
+		return "hello word! ";
 	}
 }
