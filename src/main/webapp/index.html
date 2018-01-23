@@ -5,7 +5,7 @@
 <meta name="renderer" content="webkit">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>互联网博客 解密互联网项目 灰色项目解析 网络推广营销  kkzhixia.top</title>
+<title>睽睽网络博客 IT技术笔记 源码分享 靠谱网赚</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -61,18 +61,18 @@
 <aside class="sidebar">
 	
 <div class="fixed">
-	
-	<!--搜索-->
-  <div id='search'></div>
-	
+	<!--统计 联系站长-->
+	<!--<div id='count_connection'></div>-->
 	<!--标签云-->
   <div id='lable_cloud'></div>
-	
+	<!--搜索-->
+  <div id='search'></div>
 </div>
 <div class="widget widget_hot">
+	  <h3>最新评论文章</h3>
 	  <div id="hot_articles"></div>
  </div>
- <!--<div class="widget widget_sentence" id="advert"></div>-->
+<!-- <div class="widget widget_sentence" id="advert"></div>-->
  <!--<div class="widget widget_sentence">    
 	<a href="#" target="_blank" rel="nofollow" title="MZ-NetBlog主题" >
 	<img style="width: 100%" src="images/ad.jpg" alt="MZ-NetBlog主题" ></a>    
@@ -107,8 +107,10 @@
 		$('.widget-sentence-link').load('label/link.html');
 //		title
 		$('.title').load('label/title.html');
+//		统计 联系站长
+//		$('#count_connection').load('label/count_connection.html');
 		//	lable_cloud 標籤雲
-		$('#lable_cloud').load('label/lable_cloud.html');
+	$('#lable_cloud').load('label/lable_cloud.html');
 //		搜索
 		$('#search').load('label/search.html');
 //		article_list
